@@ -16,6 +16,8 @@ module Github
       commit_message
       mime_type
       resource
+      sort
+      direction
     ].freeze
 
     VALID_REQUEST_PARAM_VALUES = {
